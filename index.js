@@ -4,14 +4,9 @@ var fruits = ['apple', 'banana', 'cherry'];
 function doToElementsInArray(callback) {
   return fruits.forEach(fruit => {
     return `Mmmm, ${fruit}!`;
-  }
+  })
 }
 
-function callback() {
-  fruits.forEach(fruit => {
-  return `Mmmm, ${fruit}!`;
-});
-}
 
 doToElementsInArray(callback)
 
