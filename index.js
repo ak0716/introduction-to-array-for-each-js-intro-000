@@ -7,7 +7,7 @@ function doToElementsInArray(callback) {
 
 function callback() {
   fruits.forEach(fruit => {
-  return `Mmmm, ${fruit}!` ;
+  return `Mmmm, ${fruit}!`;
 });
 }
 
