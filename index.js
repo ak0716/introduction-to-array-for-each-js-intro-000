@@ -5,5 +5,5 @@ function doToElementsInArray(array, callback) {
 
 // Add your changeCompletely() function here:
 function changeCompletely(element, index, array) {
-  array[index] = ${array[index]} + '!';
+  array[index] = array[index] + '!';
 }
