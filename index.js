@@ -8,7 +8,7 @@ function callback() {
   fruits.forEach(fruit => {
   console.log(`Mmmm, ${fruit}!`);
 });
-}  
+}
 
 doToElementsInArray(callback)
 
