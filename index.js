@@ -1,7 +1,7 @@
 // Add your doToElementsInArray() function here:
 const array = ["apple", "banana", "cherry"];
-doElementsInArray = (array, callback) => {
-
+doElementsInArray = (callback) => {
+  array.forEach(callback)
 }
 
 // Add your changeCompletely() function here:
