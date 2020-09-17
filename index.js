@@ -1,6 +1,6 @@
 // Add your doToElementsInArray() function here:
 const array = ["apple", "banana", "cherry"];
-doElementsInArray = (callback) => {
+doElementsInArray = (fruit) => {
   array.forEach(fruit => {
     {return `Mmmm, ${fruit}`}
   }
