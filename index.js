@@ -1,7 +1,7 @@
 // Add your doToElementsInArray() function here:
 const array = ["apple", "banana", "cherry"];
 doElementsInArray = (callback) => {
-  array.forEach(fruit) {
+  array.forEach(fruit => {
     {return `Mmmm, ${fruit}`}
   }
 }
