@@ -1,12 +1,13 @@
 // Add your doToElementsInArray() function here:
 var fruits = ['apple', 'banana', 'cherry'];
+
 function doToElementsInArray(callback) {
   return callback(fruits)
 }
 
 function callback() {
   fruits.forEach(fruit => {
-  console.log(`Mmmm, ${fruit}!`);
+  return(`Mmmm, ${fruit}!`);
 });
 }
 
