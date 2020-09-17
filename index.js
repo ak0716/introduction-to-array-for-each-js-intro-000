@@ -6,4 +6,6 @@ function doToElementsInArray(fruit) {
   }
 }
 
+doToElementsInArray()
+
 // Add your changeCompletely() function here:
