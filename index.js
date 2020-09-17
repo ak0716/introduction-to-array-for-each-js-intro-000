@@ -1,6 +1,6 @@
 // Add your doToElementsInArray() function here:
 var fruit = ['apple', 'banana', 'cherry'];
- doToElementsInArray.forEach((fruit, index, array) => {
+const doToElementsInArray = fruit.forEach((fruit, index, array) => {
   console.log(`Mmmm, ${fruit}!`);
 });
 
