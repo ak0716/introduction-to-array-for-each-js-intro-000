@@ -4,10 +4,10 @@ var callback = function(fruit) {
   return `Mmmm, ${fruit}!!!`;
 };
 
-function doToElementsInArray(fruit) {
-  let fruitArr = []
-  fruits.forEach(fruit => {fruitArr.push(`Mmmm, ${fruit}!!!`)})
-  return fruitArr
+function doToElementsInArray(callback) {
+  fruits.forEach(fruit => {
+    return callback
+  })
   }
 
 // Add your changeCompletely() function here:
