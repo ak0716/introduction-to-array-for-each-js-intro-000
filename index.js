@@ -1,13 +1,13 @@
 // Add your doToElementsInArray() function here:
 var fruits = ['apple', 'banana', 'cherry'];
+const callback = function(fruit) {
+  return `Mmmm, ${fruit}!`;
+};
 
 function doToElementsInArray(callback) {
-  return fruits.forEach(fruit => {
-    return `Mmmm, ${fruit}!`;
+  returnfruits.forEach(fruit => {
+    return callback;
   })
 }
-
-
-doToElementsInArray(callback)
 
 // Add your changeCompletely() function here:
