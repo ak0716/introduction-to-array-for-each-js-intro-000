@@ -1,11 +1,7 @@
 // Add your doToElementsInArray() function here:
-const array = ["apple", "banana", "cherry"];
-function doToElementsInArray(fruit) {
-  array.forEach((fruit, index, array) => {
-    {return `Mmmm, ${fruit}`}
-  }
-}
-
-doToElementsInArray()
+var fruit = ['apple', 'banana', 'cherry'];
+ fruit.forEach((fruit, index, array) => {
+  console.log(`Mmmm, ${fruit}!`);
+});
 
 // Add your changeCompletely() function here:
