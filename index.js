@@ -8,6 +8,6 @@ function doToElementsInArray(callback) {
   fruits.forEach(fruit => {
     return callback
   })
-  }
+}
 
 // Add your changeCompletely() function here:
