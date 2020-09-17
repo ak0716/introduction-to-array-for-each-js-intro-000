@@ -5,9 +5,11 @@ var callback = function(fruit) {
 };
 
 function doToElementsInArray(fruits, callback) {
+  let newArr = []
   fruits.forEach(fruit => {
-    return callback
+    newArr.push(callback)
   })
+  return newArr
 }
 
 // Add your changeCompletely() function here:
