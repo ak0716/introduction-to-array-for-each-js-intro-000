@@ -5,7 +5,7 @@ const callback = function(fruit) {
 };
 
 function doToElementsInArray(callback) {
-  returnfruits.forEach(fruit => {
+  fruits.forEach(fruit => {
     return callback;
   })
 }
